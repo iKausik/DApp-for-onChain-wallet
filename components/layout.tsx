@@ -8,7 +8,7 @@ const Layout = () => {
   const [currentAccount, setCurrentAccount] = useState(null);
   const [isAccountHolder, setIsAccountHolder] = useState(false);
   const [isUser, setIsUser] = useState(false);
-  const [accountBalance, setAccountBalance] = useState(0);
+  const [accountBalance, setAccountBalance] = useState("0");
   // const [accountNumber, setAccountNumber] = useState(
   //   "0x0000000000000000000000000000000000000000"
   // );
