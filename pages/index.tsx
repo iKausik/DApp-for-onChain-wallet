@@ -1,4 +1,6 @@
 // types for typescript
+import React from "react";
+
 import type { NextPage } from "next";
 import { Fragment } from "react";
 
