@@ -1,34 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Shared Wallet DApp (same as a Joint Bank Account):
 
-## Getting Started
+- deployer = the deployer of the contract, the owner of the whole wallet(bank).
+- account holder = anyone can create an account, account holder will also become an user after opening an account.
+- user = only an account holder can add users to his account to give access of deposits and withdrwals.
 
-First, run the development server:
+### NB:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1.  an account holder can only open one account.
+2.  an user can't open his own account if he/she already associated with an account added by an existing account holder.
+3.  only the deployer(owner) can see the total amount of funds available under management in the wallet(bank).
+4.  only the deployer(owner) can see a list(array) of all the account holders in the wallet(bank).
