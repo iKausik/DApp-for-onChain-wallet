@@ -192,6 +192,8 @@ const Layout = () => {
     <div className="contain">
       {/* Title */}
       <div className="box1 p-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex flex-col items-center ">
+        <img src="safe.png" width={100} height={100} alt="safe" />
+
         <h1 className="title">SharedWallet</h1>
       </div>
 
@@ -210,6 +212,9 @@ const Layout = () => {
             <span className="text-xs">{currentAccount}</span>
           </p>
         )}
+        <br />
+        <br />
+        <img src="plug.png" width={50} height={50} alt="plug" />
       </div>
 
       {/* Add user to your account */}
