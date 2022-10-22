@@ -21,7 +21,7 @@ const Layout = () => {
     withdraw: "",
   });
 
-  const contractAddress: string = "0x2d7579AA4419F60BAe8D6b5dfF3e8b95BA55E799";
+  const contractAddress: string = "0xD9519dC0F4D77b99b48E3792185F136fC099772d";
   const contractABI = abi.abi;
 
   const checkIfWalletIsConnected = async () => {
